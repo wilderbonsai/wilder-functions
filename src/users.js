@@ -4,14 +4,11 @@ const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
 const request = require('request')
-const addUser = require('./commands/users/addUser');
 
 app.use(bodyParser.json());
 
 //TODO Refactor into ASYNC/AWAIT and Promises
 app.get('/users', (req, res) => {
-  var request = require("request");
-
   var options = { method: 'POST',
     url: 'https://wildercommunity.eu.auth0.com/oauth/token',
     headers: { 'content-type': 'application/json' },
