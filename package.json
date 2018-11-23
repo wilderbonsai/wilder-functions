@@ -13,10 +13,9 @@
   },
   "scripts": {
     "start": "run-p start:**",
-    "start:assets": "netlify-lambda serve src",
+    "start:functions": "netlify-lambda serve src",
     "build": "run-p build:**",
-    "build:assets": "netlify-lambda build src/assets",
-    "build:auth": "netlify-lambda build src/auth",
+    "build:functions": "netlify-lambda build src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
