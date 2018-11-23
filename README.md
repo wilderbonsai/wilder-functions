@@ -2,7 +2,7 @@ This project is based on [Create React App v2](https://github.com/facebookincuba
 
 The main addition is a new folder: `src/lambda`. Each JavaScript file in there will automatically be prepared for Lambda function deployment.
 
-As an example, we've included a small `src/lambda/hello.js` function, which will be deployed to `/.netlify/functions/hello`.
+As an example, we've included a small `src/lambda/test.js` function, which will be deployed to `/.netlify/functions/hello`.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/create-react-app-lambda)
 
